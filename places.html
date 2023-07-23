@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Places</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+      }
+
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: all 0.4s;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar bg-dark navbar-expand-lg bg-body-tertiary"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="./logo.png" alt="Logotype" width="55"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link active" href="#">Favorite Places</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="/japan.jpg" class="card-img-top" alt="Япония, Киото" />
+            <div class="card-body">
+              <h5 class="card-title">Япония, Киото</h5>
+              <p class="card-text">
+                Киото - один из самых красивых и древних городов Японии, который
+                славится своей культурой, архитектурой и традициями. Здесь можно
+                найти множество уникальных достопримечательностей, таких как
+                храм Сенсо-дзи, парк Хигасияма, замок Нидзё и многие другие. В
+                Киото также можно попробовать вкусную японскую кухню, посетить
+                музеи и театры, а также насладиться красотой природы и
+                спокойствием реки Камогава.
+              </p>
+              <a href="/japan.jpg" class="btn btn-primary" target="_blank"
+                >Large Photo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/spb.jpg"
+              class="card-img-top"
+              alt="Санкт-Петербург, Кронштадт"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Санкт-Петербург, Кронштадт</h5>
+              <p class="card-text">
+                Кронштадт – это уникальное место, которое стоит посетить хотя бы
+                раз в жизни. Здесь вы сможете насладиться красивой природой,
+                познакомиться с историей и культурой России, а также провести
+                время с пользой для своего здоровья и души.
+              </p>
+              <a href="/spb.jpg" class="btn btn-primary" target="_blank"
+                >Large Photo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/mountains.jpg"
+              class="card-img-top"
+              alt="Кавказ, Адыгея"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Кавказ, Адыгея</h5>
+              <p class="card-text">
+                Адыгея - это удивительный край, который находится на юге России.
+                Здесь вы найдете горы, леса, реки и озера, которые поражают
+                своей красотой. В Адыгее можно заняться различными видами
+                активного отдыха, такими как пеший туризм, альпинизм, рафтинг и
+                многое другое. Также здесь есть множество исторических и
+                культурных достопримечательностей, которые стоит посетить. Одним
+                из самых интересных мест в Адыгее является плато Лаго-Наки,
+                которое славится своими красивыми видами и горными пейзажами.
+              </p>
+              <a href="/mountains.jpg" class="btn btn-primary" target="_blank"
+                >Large Photo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
